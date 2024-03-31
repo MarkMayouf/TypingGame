@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(13, 122, 161);
+    margin: 0;
+}
+.timer{
+   position: absolute;
+   font-size: 2rem;
+   top: 1rem;
+   color: rgb(209, 215, 50);
+}
+.container{
+margin-top: 5rem;
+width: 800px;
+height: 500px;
+max-width: 90%;
+
+
+}
+.display-quote{
+   font-size: 1.4rem;
+   /* font-weight: bold; */
+   padding: 1rem 0;
+}
+.input-quote{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    resize: none;
+
+}
+.lol{
+    position: fixed;
+    bottom:10px;
+    justify-content: center;
+    text-align: center;
+}
+.lol:hover{
+    color:pink
+}
+.correct{
+    color:green
+}
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
